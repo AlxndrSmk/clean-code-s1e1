@@ -12,6 +12,10 @@
   text-align: right;
 }
 
+.header__caption {
+  display: none;
+}
+
 .header__img {
   width: 100%;
 }
@@ -109,7 +113,7 @@
 }
 
 .task-input_text-field#task-input_new {
-  width: 318px;
+  width: 416px;
 }
 
 /* Task list */
