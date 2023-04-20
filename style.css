@@ -38,7 +38,9 @@
   margin: 0 auto 0;
 }
 
-.todo-item__descrition {
+/* .todo-item__description, */
+.todo-item__text-input,
+.todo-item__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -54,7 +56,8 @@
   list-style: none;
 }
 
-.todo-item__descrition,
+/* .todo-item__description, */
+.todo-item__text-input,
 .btn {
   outline: none;
 }
@@ -151,7 +154,7 @@
 }
 
 /* Completed */
-#completed-tasks .todo-item__label {
+#complete-tasks .todo-item__label {
   text-decoration: line-through;
   color: #888;
 }
